@@ -1,0 +1,63 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "good day", "greetings", "whtas'up?", "how is it going"],
+      "responses": ["Hello!", "Hey!", "what can i do for you", "I am good"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you later", "goodnight", "have a good day", "i am leaving", "goodbye", "see ya"],
+      "responses": ["Bye", "Sad to see you go", "Talk to you later", "Goodbye!", "See yaa!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you", "what is your age", "age"],
+      "responses": ["I am a chatbot, so I don't have an age.", "I was created recently."]
+    },
+    {
+        "tag": "name",
+        "patterns": ["what is your name", "what should i call you", "what's your name", "who are you", "can you tell me your name ", "what is your owner name", "who created you", "who owns you"],
+        "responses":["My name is Chatboot", "You can call me AI assistent", "I am AI assistent of India", "I am an AI assistent", "I am an Assistent"]
+
+    },
+    {
+        "tag": "hours",
+        "patterns": ["at what time you are availble", "what are your hours", "hours of opration", "working hours"],
+        "responses": ["available anytime", "24/7", "I am always available", "Always Present"]
+    },
+    {
+        "tag": "data",
+        "patterns": ["what type of data you have", "what data you contain", "tell me about your data"],
+        "responses": ["I have world wide data", "I have a data regarding stock market, geographical, political, enviromental, etc"]
+    },
+    {
+        "tag": "shop",
+        "patterns": ["I would like to buy something", "what are your products", "what you sold", "what doyou recommend", "what are you selling", "what kind of product you sell"],
+        "responses": ["AI assistent have python, java, c, and c++ book series and a lot of free content on it's Website"]
+
+    },
+    {
+      "tag": "stop",
+      "patterns": ["stop responding", "shutdown", "do not reply", "don't reply", "stop this process"],
+      "response": ["Ok", "Not answering to this question", "Done", "If you want I can  suggest different answers"]
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
